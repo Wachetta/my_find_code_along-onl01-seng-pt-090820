@@ -1,5 +1,3 @@
-require 'pry'
-
 def my_find(collection)
   i = 0 # counter
   while i < collection.length # while counter is less then length of array
