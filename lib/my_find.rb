@@ -6,6 +6,6 @@ def my_find(collection)
     if yield(collection[i]) #yield and pass element 0 ofcollection
     return collection[i]     #return the arguement
     i = i + 1
+    end
   end
-end
 end
